@@ -1,0 +1,32 @@
+# KiCad
+*-backups/
+.mcp-backups/
+.history/
+*.kicad_prl
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+_autosave-*
+*.tmp
+*.lck
+
+# Temp routing and DRC files
+*.dsn
+*.ses
+drc_report*.txt
+drc_report*.json
+erc_report*.json
+drc_test.json
+cm5_erc.json
+
+# Scratch JSONs
+batch*.json
+*payload.json
+*placement*.json
+fix_*.json
+
+# Other temp files
+vset_tables*.txt
+drc_final_test.txt
+freerouting.log
